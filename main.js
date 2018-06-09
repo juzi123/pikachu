@@ -1,7 +1,7 @@
 ! function () {
     var duration = 50
     $('.actions').on('click', 'button', function (e) {
-        let $button = $(e.currentTarget) // button
+        let $button = $(e.currentTarget) 
         let speed = $button.attr('data-speed')
         $button.addClass('active')
             .siblings('.active').removeClass('active')
@@ -35,6 +35,7 @@
             }
         }, duration)
     }
+
     let code = `/*
    * 首先，需要准备皮卡丘的皮
    */
@@ -185,5 +186,4 @@
    */
   `
     writeCode('', code)
-
 }.call()
