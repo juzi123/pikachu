@@ -128,7 +128,7 @@
     border: 2px solid black;
     position: absolute;
     top: 50px;
-    background: #FDE348;
+    background: ##FEE433;
   }
   .upperLip.left{
     right: 50%;
@@ -148,7 +148,7 @@
    * 下嘴唇
    */
   .lowerLip-wrapper{
-    bottom: 0;
+    bottom: -6px;
     position: absolute;
     left: 50%;
     margin-left: -150px;
