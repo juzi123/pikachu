@@ -7,13 +7,13 @@
             .siblings('.active').removeClass('active')
         switch (speed) {
             case 'slow':
-                duration = 100
-                break
-            case 'normal':
                 duration = 50
                 break
-            case 'fast':
+            case 'normal':
                 duration = 10
+                break
+            case 'fast':
+                duration = 5
                 break
         }
     })
@@ -128,7 +128,7 @@
     border: 2px solid black;
     position: absolute;
     top: 50px;
-    background: ##FEE433;
+    background: #FEE433;
   }
   .upperLip.left{
     right: 50%;
